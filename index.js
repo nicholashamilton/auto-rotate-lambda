@@ -39,7 +39,7 @@ exports.handler = async (event, context, callback) => {
                     callback(`Error rotating image: ${error}`, null);
                 }
 
-                const newKeyValue = `rotated${key}`;
+                const newKeyValue = `rotated/${key}`;
                 const params = {
                     Bucket: bucket,
                     Key: newKeyValue,
