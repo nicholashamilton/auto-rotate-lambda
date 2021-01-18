@@ -1,0 +1,12 @@
+{
+  "name": "autorotatedependencies",
+  "version": "1.0.0",
+  "description": "Auto Rotate Lambda Function",
+  "author": "Nicholas Hamilton",
+  "license": "ISC",
+  "entry": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.826.0",
+    "jpeg-autorotate": "^7.1.1"
+  }
+}
